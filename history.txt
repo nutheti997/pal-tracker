@@ -1,0 +1,138 @@
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo apt remove -y
+    4  hostname
+    5  sudo vi /etc/hostname
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  sudo apt -y upgrade
+    9  chomd +x ~/Downloads/ubuntu_install.sh 
+   10  chmod +x ~/Downloads/ubuntu_install.sh 
+   11  ~/Downloads/ubuntu_install.sh 
+   12  cd /Down
+   13  mkdir ~/Downloads
+   14  mkdir -p ~/workspace/assignment-submission
+   15  cd ~/workspace/assignment-submission
+   16  gradle wrapper
+   17  touch build.gradle
+   18  ./gradlew testAssignment
+   19  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+   20  pwd
+   21  ls
+   22  git log --graph --decorate --oneline --all
+   23  pwd
+   24  cd ..
+   25  git log --graph --decorate --oneline --all
+   26  ls
+   27  cd pal-tracker/
+   28  git log --graph --decorate --oneline --all
+   29  ls -latr
+   30  git init
+   31  cd..
+   32  ls
+   33  cd ..
+   34  rm -fR pal*
+   35  ls
+   36  cd pal-tracker/
+   37  ls
+   38  ls -latr
+   39  git log --graph --decorate --oneline --all
+   40  git remote add origin https://github.com/nutheti997/pal-tracker.git
+   41  git push origin master --tags
+   42  vi build.gradle
+   43  ls
+   44  mkdir src
+   45  cd src
+   46  mkdir main
+   47  cd main/
+   48  mkdir java
+   49  cd ..
+   50  gradle tasks
+   51  gradle tasks check
+   52  gradle bootRun
+   53  cf --help
+   54  cf login --help
+   55  cf login
+   56  gradle bootRun
+   57  target
+   58  git target
+   59  cf target
+   60  gradle clean
+   61  ls
+   62  gradle build
+   63  ls
+   64  cf target
+   65  ./gradlew build 
+   66  ls
+   67  cd build/
+   68  ls
+   69  cd libs
+   70  ls
+   71  cd ../..
+   72  cf push -p build/libs/pal-tracker.jar 
+   73  cf push  al-tracker.jar
+   74  cf push
+   75  cf push pal-tracker
+   76  cf push pal-tracker-wipro
+   77  cf push
+   78  ./gradlew clean build
+   79  cf push pal-tracker-wipro
+   80  cf push
+   81  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+   82  ls
+   83  cd build/libs/
+   84  ls
+   85  ls -alh
+   86  java -jar pal-tracker.jar 
+   87  cd ..
+   88  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+   89  cf logs pal-tracker-wipro --recent
+   90  java -version
+   91  ]cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   92  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   93  cf set-env pal-tracker-wipro JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   94  cf restage pal-tracker-wipro
+   95  cf start pal-tracker-wipro
+   96  cd ~/workspace/assignment-submission
+   97  /gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker-wipro.apps.evans.pal.pivotal.io
+   98  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker-wipro.apps.evans.pal.pivotal.io
+   99  pwd
+  100  cd ../pal-tracker/
+  101  git status
+  102  pushd .
+  103  cd /tmp
+  104  ls
+  105  mkdir foo
+  106  cd foo/
+  107  ls
+  108  git init
+  109  echo "hey" > greeting.txt
+  110  git status
+  111  echo "hey" > greeting2.txt
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "my cool commit"
+  116  git status
+  117  git config --global user.email "someuser@someemail.com"
+  118  git config user.email "someuser@someemail.com"
+  119  git config user.name "some user"
+  120  git status
+  121  git commit -m "my cool commit"
+  122  git status
+  123  git log
+  124  popd
+  125  git  status
+  126  git add .
+  127  git  status
+  128  git commit
+  129  git commit -m "pivotal code commit"
+  130  git push
+  131  cf apps
+  132  cf routes
+  133  xf services
+  134  cf servvices
+  135  cf services
+  136  history
+  137  history . 1txt
+  138  history > a.txt
