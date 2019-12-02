@@ -136,3 +136,15 @@
   136  history
   137  history . 1txt
   138  history > a.txt
+  139  more a.txt
+  140  q!
+  141  pwd
+  142  ls
+  143  mv a.txt history.txt
+  144  git status
+  145  git add history.txt 
+  146  git status
+  147  git commit -m "history of commands used"
+  148  git status
+  149  git push
+  150  history > history.txt
