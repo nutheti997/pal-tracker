@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: pal-tracker
+  - name: pal-tracker-wipro
     path: build/libs/pal-tracker.jar
     routes:
     - route: pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
