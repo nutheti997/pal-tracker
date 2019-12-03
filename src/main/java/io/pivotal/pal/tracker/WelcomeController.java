@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
     private String value = " Hello..";
-
-    //Value annotation
+    
     public WelcomeController(@Value("${welcome.message}")String value){
 
         this.value = value;
