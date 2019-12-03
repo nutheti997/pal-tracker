@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
     private String value = " Hello..";
-    
+    //ADDING TO TRIGGER
     public WelcomeController(@Value("${welcome.message}")String value){
 
         this.value = value;
