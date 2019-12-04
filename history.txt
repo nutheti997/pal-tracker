@@ -148,3 +148,268 @@
   148  git status
   149  git push
   150  history > history.txt
+  151  git status
+  152  git add 
+  153  git add history.txt 
+  154  git commit -m "update history" 
+  155  git status
+  156  git oush
+  157  git push
+  158  git log --graph --decorate --oneline --all
+  159  gradle bootRun
+  160  ./gradlew clean build
+  161  ls
+  162  cd build
+  163  ls libs/
+  164  ls
+  165  cd libs
+  166  ls
+  167  ls -lrt
+  168  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  169  cf push pal-tracker-wipro
+  170  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  171  cf push pal-tracker-wipro -p pal-tracker.jar
+  172  cf apps
+  173  cf target
+  174  cd ../..
+  175  git cherry-pick deployment-start
+  176  ./gradlew bootRun
+  177  ./gradlew clean
+  178  clear
+  179  ./gradlew clean
+  180  ./gradlew -version
+  181  ./gradlew clean
+  182  ./gradlew bootRun
+  183  WELCOME_MESSAGE=hello ./gradlew bootRun
+  184  WELCOME_MESSAGE=hello123 ./gradlew bootRun
+  185  ./gradlew bootRun
+  186  cf push
+  187  history | cf
+  188  history | grep cf
+  189  ls
+  190  cd build
+  191  ls
+  192  ./gradlew bootRun
+  193  cd ..
+  194  ./gradlew bootRun
+  195  ls
+  196  cd build
+  197  ls
+  198  ./gradlew bootRun
+  199  cd..
+  200  ./gradlew bootRun
+  201  cd ..
+  202  ./gradlew bootRun
+  203  ls
+  204  cd build
+  205  ls
+  206  cd classes/
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd ..
+  211  ./gradlew clean build
+  212  cd build/libs/
+  213  ls
+  214  cd ../..
+  215  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  216  cf logs
+  217  cf logs pal-tracker-wipro --recent
+  218  cf set-env WELCOME_MESSAGE=Hello..
+  219  cf set-env pal-tracker-wipro WELCOME_MESSAGE=Hello..
+  220  cf set-env pal-tracker-wipro WELCOME_MESSAGE Hello..
+  221  cf re-stage pal-tracker-wipro
+  222  cf restage pal-tracker-wipro
+  223  cf push
+  224  history | grep 'cf push'
+  225  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  226  cf restart pal-tracker-wipro
+  227  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  228  git status
+  229  git add .
+  230  history | git
+  231  history | grep git
+  232  git commit
+  233  git commit -m "updated files"
+  234  git push
+  235  cf logs pal-tracker-wipro --recent
+  236  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  237  history
+  238  ./gradlew bootRun
+  239  cf delete pal-tracker-wipro
+  240  ls
+  241  ./gradlew clean build
+  242  cf push pal-tracker-wipro build/lib/pal-tracker.jar
+  243  history
+  244  git status
+  245  git add
+  246  git add .
+  247  git commit -m "manifest.yml file to store ENV variables and load automatically"
+  248  git push
+  249  ./gradlew bootRun
+  250  cd ~/workspace/assignment-submission
+  251  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-wipro-delightful-bongo.apps.evans.pal.pivotal.io
+  252  history
+  253  git status
+  254  cd -
+  255  git status
+  256  git push
+  257  git pull
+  258  git push
+  259  env
+  260  cf ssh pal-tracker-wipro
+  261  cf config
+  262  cf config pal-tracker-wipro
+  263  cf ssh pal-tracker-wipro
+  264  cf target
+  265  cf domains
+  266  git cherry-pick pipeline-start
+  267  cf map-route -help
+  268  cf map-route pal-tracker-wipro pal-tracker-wipro-domain.apps.evans.pal.pivotal.io
+  269  cf map-route pal-tracker-wipro http://pal-tracker-wipro-delightful-bongo.apps.evans.pal.pivotal.io
+  270  cf map-route pal-tracker-wipro pal-tracker-wipro-delightful-bongo.apps.evans.pal.pivotal.io
+  271  git status
+  272  git checkout manifest.yml
+  273  git add manifest.yml 
+  274  git status
+  275  git commit -m "manifest updated to take the route name"
+  276  git push
+  277  git status
+  278  git add manifest.yml 
+  279  git commit -m "reset route name"
+  280  git push
+  281  cf domain
+  282  cf domains
+  283  cf traget
+  284  cf login
+  285  cf space
+  286  cf guid
+  287  cf space guid
+  288  cf login
+  289  git status
+  290  git add
+  291  git add .
+  292  git commit -m "checking in to trigger Travis CI"
+  293  git push
+  294  git status
+  295  git add .
+  296  git commit -m "checking in to trigger Travis CI"
+  297  git push
+  298  cf target
+  299  git add .
+  300  git commit -m "checking in to trigger Travis CI"
+  301  git push
+  302  git add .
+  303  git commit -m "checking in to trigger Travis CI"
+  304  git push
+  305  cf domains
+  306  cf route -help
+  307  cf routes -help
+  308  cf routes
+  309  git status
+  310  git add .
+  311  git commit -m "route updated"
+  312  git push
+  313  cf routes
+  314  cf login
+  315  cd ~/workspace/assignment-submission
+  316  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  317  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  318  ls
+  319  git add .
+  320  cd -
+  321  git add .
+  322  git commit -m "changing the app name to pal-tracker-wipro"
+  323  git push
+  324  cf routes
+  325  cf login
+  326  cf routes
+  327  history
+  328  ./gradlew bootRun
+  329  ./gradlew test
+  330  ./gradlew bootRun
+  331  history
+  332  cf map-route
+  333  git cherry-pick mvc-start
+  334  id
+  335  pwd
+  336  cd workspace/
+  337  git cherry-pick mvc-start
+  338  ls
+  339  cd pal-tracker/
+  340  git cherry-pick mvc-start
+  341  ls
+  342  ls src
+  343  ls
+  344  cd src
+  345  ls
+  346  ls test
+  347  cd java
+  348  ls
+  349  cd test/java/test/pivotal/pal/tracker
+  350  ls
+  351  more InMemoryTimeEntryRepositoryTest.java 
+  352  !
+  353  cd ~/workspace/pal-tracker/
+  354  ls
+  355  ./gradlew clean compileTestJava
+  356  clear
+  357  ./gradlew clean compileTestJava
+  358  ./gradlew clean build
+  359  curl -i localhost:8080/time-entries
+  360  ./gradlew bootRun
+  361  curl -i -XPOST -H"Content-Type: application/json" localhost:8080/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+  362  curl -i localhost:8080/time-entries/1
+  363  curl -i -XPUT -H"Content-Type: application/json" localhost:8080/time-entries/${TIME_ENTRY_ID} -d"{\"projectId\": 88, \"userId\": 99, \"date\1, \"hours\": 8}"
+  364  curl -i -XDELETE -H"Content-Type: application/json" localhost:8080/time-entries/1
+  365  curl -i localhost:8080/time-entries/1
+  366  curl -i localhost:8080/time-entries
+  367  curl -i -XPOST -H"Content-Type: application/json" localhost:8080/time-entries -d"{\"projectId\": 1, \"userId\": 2, \"date\": \"2019-01-01\", \"hours\": 8}"
+  368  curl -i localhost:8080/time-entries
+  369  curl -i -XPOST -H"Content-Type: application/json" localhost:8080/time-entries -d"{\"projectId\":51, \"userId\": 4, \"date\": \"2019-01-01\", \"hours\": 8}"
+  370  curl -i localhost:8080/time-entries
+  371  curl -i -XDELETE -H"Content-Type: application/json" localhost:8080/time-entries/2
+  372  curl -i localhost:8080/time-entries
+  373  git status
+  374  git add .
+  375  git commit -m "Spring rest testcases and implementation"
+  376  git push
+  377  cd ~/workspace/assignment-submission
+  378  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  379  cd -
+  380  git status
+  381  git push
+  382  git status
+  383  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  384  cd ~/workspace/assignment-submission
+  385  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  386  /gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io/time-entries
+  387  /gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  388  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io/time-entries
+  389  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  390  clear
+  391  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  392  curl -i localhost:8080/time-entries
+  393  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  394  cf logs
+  395  cf logs pal-tracker-wipro
+  396  history
+  397  cf push pal-tracker-wipro -p build/libs/pal-tracker.jar
+  398  ./gradlew cloudNativeDeveloperRest -PserverUrl=http://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  399  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  400  git status
+  401  cd -
+  402  git status
+  403  git diff 
+  404  cf apps
+  405  cf delete build/libs/pal-tracker.jar
+  406  cf delete pal-tracker
+  407  cd -
+  408  ./gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-wipro-app1.apps.evans.pal.pivotal.io
+  409  cf apps
+  410  history | grep history
+  411  history > history.txt
+  412  ls
+  413  git status
+  414  cd -
+  415  history > history.txt
